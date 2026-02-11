@@ -1,0 +1,276 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks, colorlinks=true, linkcolor=blue, urlcolor=blue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\hypersetup{
+  pdftitle={Salih Bora Öztürk's Resume},
+  pdfauthor={Salih Bora Öztürk},
+  pdfkeywords={Salih Bora Öztürk, cv, resume, computer, engineer},
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge \scshape Salih \underline{Bora} Öztürk} \\ \vspace{8pt}
+  \small
+  \href{https://salihboraozturk.com}{salihboraozturk.com}  $|$ 
+  \href{https://github.com/borawhocodess}{github.com/borawhocodess} $|$ 
+  \href{mailto:boraozturksalih@gmail.com}{boraozturksalih@gmail.com}
+\end{center}
+
+
+\section{Education}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {University of Freiburg (Albert-Ludwigs-Universität Freiburg)}{Oct. 2024 -- Present}
+      {M.Sc. in Computer Science}{Freiburg, Germany}
+      \resumeItemListStart
+        \resumeItem{Specializing in Artificial Intelligence with a focus on Tabular Data}
+      \resumeItemListEnd
+    
+  \resumeSubheading
+    {Istanbul Technical University}{Sept. 2019 -- July 2024}
+    {B.Sc. in Computer Engineering}{Istanbul, Türkiye}
+    \resumeItemListStart
+      \resumeItem{GPA: \textbf{3.39}/4  \href{https://web.itu.edu.tr/ozturks19/docs/sbotranscript.pdf}{transcript.pdf}}
+      \resumeItem{President of the Student Council, Student Representative of Faculty and Department}
+      \resumeItem{ITU ACM Student Chapter, ITU AI Club, ITU Track \& Field, ITU Sailing}
+    \resumeItemListEnd
+    
+  \resumeSubheading
+    {Kaunas University of Technology}{Jan. 2022 -- July 2022}
+    {Erasmus+ KA103}{Kaunas, Lithuania} 
+
+  \resumeSubheading
+    {Kadir Has Anatolian High School}{Sept. 2015 -- June 2019}
+    {Mathematics and Sciences}{Istanbul, Türkiye}
+    \resumeItemListStart
+      \resumeItem{YKS 2019 Rank: \textbf{1686\textsuperscript{th}} \href{https://web.itu.edu.tr/ozturks19/docs/sboyks19.pdf}{yks19.pdf}}
+      \resumeItem{Inter-school EYPs, MUNs, Math Olympics, Chess}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Bathurst High School}{Sept. 2016 -- July 2017}
+    {ISE WORLD Exchange Program}{New Brunswick, Canada}
+     
+  \resumeSubHeadingListEnd
+
+
+\section{Projects}
+  \resumeSubHeadingListStart
+
+  \resumeProjectHeading
+      {\textbf{nanoTabPFN} \href{https://github.com/priorlabs/nanoTabPFN}{GitHub}}{Jun. 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Contributed to adding regression support and extending prior selections}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+    {\textbf{Threew (Three Words per day)} \href{https://apps.apple.com/app/threew/id6744202891}{AppStore}}{Apr. 2025 -- Present}
+    \resumeItemListStart
+      \resumeItem{A utility application for tracking the German phrases I learn}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{FFFF (For Friends From Friends)} \href{https://forfriendsfromfriends.com}{forfriendsfromfriends.com}}{Oct. 2023 -- Present}
+    \resumeItemListStart
+      \resumeItem{A novel social journaling app, graduation project, ranked \textbf{2\textsuperscript{nd}}}
+      \resumeItem{Co-developed with M. Eren Cantemür, supervised by Asst. Prof. Gökhan Seçinti}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+  
+\section{Experience}
+  \resumeSubHeadingListStart
+  
+  \resumeSubheading
+    {SDx and Automation Intern}{Dec. 2023 -- Sept. 2024}
+    {BTS Group / BTS LABS}{Istanbul, Türkiye}
+    \resumeItemListStart
+      \resumeItem{Mental Arts Program Graduate}
+      \resumeItem{Training in networking, containerization, Linux, CI/CD \& DevOps.}
+      \resumeItem{Developed a mobile app, back-end, and Containerlab environment for \\
+      configuration retrieval and updates leveraging YANG and NETCONF}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {iOS Development Intern}{July 2023 -- Aug. 2023}
+    {VSight}{Istanbul, Türkiye}
+    \resumeItemListStart
+      \resumeItem{Built a demo AR app for the new Apple Vision Pro running on visionOS}
+    \resumeItemListEnd
+
+
+  \resumeSubheading
+    {Student Assistant}{Apr. 2021 -- Dec. 2021}
+    {ITU IT Department}{Istanbul, Türkiye}
+    \resumeItemListStart
+      \resumeItem{Provided technical support to ITU users} 
+      \resumeItem{Obtained CCNA 1 certification}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+\section{Volunteering}
+  \resumeSubHeadingListStart
+  
+  \resumeSubheading
+    {Mentor}{Oct. 2026 -- Present}
+    {Intercultural Mentoring Program}{Freiburg, Germany}
+    \resumeItemListStart
+      \resumeItem{Guiding an international student in adapting to a new life.}
+    \resumeItemListEnd
+  
+  \resumeSubheading
+    {Event Coordinator}{Sept. 2021 -- Jan. 2022}
+    {ITU ACM Student Chapter \& ITU AI Club}{Istanbul, Türkiye}
+    \resumeItemListStart
+      \resumeItem{Organized events and delivered keynotes at “COMP101”}
+    \resumeItemListEnd
+    
+  \resumeSubheading
+    {Lecturer}{Sept. 2019 -- Mar. 2020}
+    {ITU Volunteering Club, BBY}{Istanbul, Türkiye}
+    \resumeItemListStart
+      \resumeItem{Taught high-school-level Geometry and Mathematics}
+      \resumeItem{Conducted interviews to select the program-fit candidates}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Technical Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+      \item{
+        Python, C++, Swift, SwiftUI, PyTorch, SQL, SPARQL, HTML/CSS, Git, Docker, VS Code, Xcode
+      }
+    }
+  \end{itemize}
+
+\section{Additional Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+      \item{
+        \textbf{Languages}{: Turkish(Native), English(C1)(IELTS 7.5 \href{https://web.itu.edu.tr/ozturks19/docs/sboielts.pdf}{ielts.pdf}), German(A2)} 
+        \vspace{4pt} \\
+        \textbf{Sports}{: Swimming(Professional, 7 yrs.), Football(Soccer), Basketball, Tennis, Table-tennis, Archery, Sailing, Chess}
+        \vspace{4pt} \\
+        \textbf{Theatre}{: Müjdat Gezen Sanat Merkezi(2 yrs.), Hasan Ali Yücel Kültür Merkezi(2 yrs.), Kartal Sanat Tiyatrosu(2 yrs.)}
+      }
+    }
+  \end{itemize}
+
+\vspace{30pt}
+\begin{center}
+  \textit{Phone number and professional references available upon request}
+\end{center}
+
+\vspace{25pt}
+\begin{flushright}
+  \textit{Last updated: January 2025}
+  \hspace{20pt}
+\end{flushright}
+
+\vfill
+
+\section{Abbreviations}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+      \item{
+        \textbf{ACM}{: Association for Computing Machinery}
+        \vspace{4pt} \\
+        \textbf{BBY}{: Bir Başka Yol}
+        \vspace{4pt} \\
+        \textbf{CCNA}{: Cisco Certified Network Associate}
+        \vspace{4pt} \\
+        \textbf{EYP}{: European Youth Parliament}
+        \vspace{4pt} \\
+        \textbf{IELTS}{: International English Language Testing System}
+        \vspace{4pt} \\
+        \textbf{ITU}{: Istanbul Technical University}
+        \vspace{4pt} \\
+        \textbf{MUN}{: Model United Nations}
+        \vspace{4pt} \\
+        \textbf{YKS}{: Yükseköğretim Kurumları Sınavı (Türkiye’s National University Entrance Exam)} 
+      }
+    }
+  \end{itemize}
+  
+\end{document}
+
